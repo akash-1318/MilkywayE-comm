@@ -62,3 +62,15 @@ h6{
 a{
     text-decoration: none;
 }
+
+.header{
+    padding: 1rem 4rem;
+}
+
+.header__nav-right{
+    margin-left: 0px;
+}
+
+.header__nav-right > :nth-child(1){
+    color: var(--font-color);
+}
