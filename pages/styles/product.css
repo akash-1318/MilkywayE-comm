@@ -1,0 +1,182 @@
+.product__main-container{
+    display: flex;
+}
+
+.filter__left{
+    width: 20%;
+    height: 100vh;
+    padding: 2rem;
+    box-shadow: 5px 3px 15px var(--secondry-color);
+    position: sticky;
+    top: 0px;
+}
+
+.filter__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter__title-btn{
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+}
+
+.filter{
+    font-weight: 600;
+}
+
+.clear{
+    font-weight: 400;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    margin-top: 1rem;
+  }
+
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background: #636363;
+    cursor: pointer;
+  }
+
+  .amount__div{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 1.5rem;
+  }
+
+  .amount__div > p{
+      font-size: 1.5rem;
+      color: var(--secondry-text-color);
+  }
+
+.filter__type{
+    font-size: 1.5rem;
+}
+
+.filter__section{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0rem;
+}
+
+.radio{
+    margin: 1rem 0rem;
+    font-size: 1.5rem;
+}
+
+.filter__section > label{
+    margin-left: 1rem;
+}
+
+.product__right{
+    padding: 3rem 4rem;
+    width: 100%;
+    background-color: var(--primary-backgroud-color);
+}
+
+.main-primary__text{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.main-primary__text > span{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.grid__product{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+/* Milkyway UI card */
+
+.card{
+    padding: 2rem;
+    background-color: var(--secondry-color);
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+.prod__card{
+    padding: 0px;
+    width: auto;
+    background-color: white;
+}
+
+.prod__card-name{
+    padding: 0px;
+}
+
+.card__img-c.prod__card-img{
+    height: auto;
+    border-radius: 0px;
+}
+
+.prod__card-btn{
+    width: 100%;
+    border-radius: 0px;
+    margin: 1rem 0rem 0rem 0rem;
+}
+
+.card__name{
+    text-align: center;
+}
+
+.solid__secondry{
+    background-color: var(--go-to-cart);
+    color: white;
+}
+
+.card__charc-name{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.prod__charc-series{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 1rem;
+}
+
+.like__product{
+    height: 3rem;
+    width: 3rem;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.product__liked > i{
+    color: tomato;
+}
+
+.like__product > i {
+    font-size: 2rem;
+}
+
