@@ -1,8 +1,8 @@
 # MilkywayE-comm
  
-Tech Stack - \
-1. HTML5 
-2. CSS3
+Tech Stack - 
+* HTML5
+* CSS3
 
 # Functionalities
 
