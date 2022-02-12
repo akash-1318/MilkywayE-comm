@@ -79,6 +79,14 @@ a{
     cursor: pointer;
 }
 
+.logout__btn{
+    background-color: #ff5353;
+}
+
+.logout__btn:hover{
+    background-color: #ff3c3c;
+}
+
 .header__nav-right > :nth-child(1){
     color: var(--font-color);
 }

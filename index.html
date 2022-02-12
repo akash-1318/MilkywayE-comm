@@ -1,178 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Milkyway</title>
-    <link rel="stylesheet" href="pages/styles/main.css"></link>
-    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Milkyway</title>
+  <link rel="stylesheet" href="pages/styles/main.css">
+  </link>
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-    <!-- Milkyway UI header -->
-    <header class="header">
-        <a href="#">
-          <div class="header__nav-left">
-            <img src="assets/images/galaxy.png" alt="logo" />
-            <p class="logo__name">Milkyway</p>
+  <!-- Milkyway UI header -->
+  <header class="header">
+    <a href="#">
+      <div class="header__nav-left">
+        <img src="assets/images/galaxy.png" alt="logo" />
+        <p class="logo__name">Milkyway</p>
+      </div>
+    </a>
+
+    <div class="header__nav-middle">
+      <div class="search__icon">
+        <i class="bx bx-search-alt-2"></i>
+      </div>
+      <input placeholder="search" class="header__search" />
+    </div>
+
+    <div class="header__nav-right">
+      <div class="header__icons">
+        <a href="pages/login.html"><button class="btn solid__primary">Login</button></a>
+        <a href="pages/wishlist.html">
+          <div class="icon__badge">
+            <i class="bx bx-heart"></i>
+            <span class="badge__content">5</span>
           </div>
         </a>
 
-        <div class="header__nav-middle">
-            <div class="search__icon">
-              <i class="bx bx-search-alt-2"></i>
-            </div>
-            <input placeholder="search" class="header__search" />
+        <a href="pages/mycart.html">
+          <div class="icon__badge">
+            <i class="bx bxs-cart-alt"></i>
+            <span class="badge__content">2</span>
           </div>
-      
-        <div class="header__nav-right">
-          <div class="header__icons">
-            <a href="pages/login.html"><button class="btn solid__primary">Login</button></a>
-              <a href="pages/wishlist.html">
-                <div class="icon__badge">
-                  <i class="bx bx-heart"></i>
-                  <span class="badge__content">5</span>
-                </div>
-              </a>
+        </a>
 
-              <a href="pages/mycart.html">
-                <div class="icon__badge">
-                  <i class="bx bxs-cart-alt"></i>
-                  <span class="badge__content">2</span>
-                </div>
-              </a>
-            
-            <p class="cart__text">Cart</p>
+        <p class="cart__text">Cart</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="main__container">
+    <div class="scroll__bar">
+      <div class="offer__text">
+        <p class="primary__text">
+          Milkyway Sale
+        </p>
+        <p class="secondry__text">Offers you will fall in love with</p>
+        <p class="sale__text">40-70% off</p>
+        <hr />
+        <div class="explore__text">
+
+          <!-- Milkyway UI Button -->
+
+          <a href="pages/products.html"><button class="btn solid__primary">Explore+</button></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="space__3rem"></div>
+    <div class="space__3rem"></div>
+    <div class="deals__day">
+      <h1 class="category__heading">DEALS ON TOP BRANDS</h1>
+      <div class="main__card-container">
+
+        <!-- Milkyway UI Card -->
+
+
+        <div class="card">
+          <div class="card__container">
+            <div class="card__img">
+              <img src="assets/images/model1.jpg" alt="card-img" class="card__img-c" />
+            </div>
+            <div class="card__name">
+              <p class="card__charc-name">U.S POLO ASSN.</p>
+              <p class="card__charc-series">Up To 50% Off</p>
+            </div>
           </div>
         </div>
-      </header>
 
-    <main class="main__container">
-        <div class="scroll__bar">
-            <div class="offer__text">
-                <p class="primary__text">
-                    Milkyway Sale
-                </p> 
-                <p class="secondry__text">Offers you will fall in love with</p>  
-                <p class="sale__text">40-70% off</p>   
-                <hr/>
-                <div class="explore__text">
-
-                    <!-- Milkyway UI Button -->
-
-                    <a href="pages/products.html"><button class="btn solid__primary">Explore+</button></a>
-                </div>      
+        <div class="card">
+          <div class="card__container">
+            <div class="card__img">
+              <img src="assets/images/model1.jpg" alt="card-img" class="card__img-c" />
             </div>
+            <div class="card__name">
+              <p class="card__charc-name">U.S POLO ASSN.</p>
+              <p class="card__charc-series">Up To 50% Off</p>
+            </div>
+          </div>
         </div>
 
-        <div class="space__3rem"></div>
-        <div class="space__3rem"></div>
-        <div class="deals__day">
-            <h1 class="category__heading">DEALS ON TOP BRANDS</h1>
-            <div class="main__card-container">
-
-                <!-- Milkyway UI Card -->
-
-
-                <div class="card">
-                    <div class="card__container">
-                      <div class="card__img">
-                        <img src="assets/images/model1.jpg" alt="card-img" class="card__img-c" />
-                      </div>
-                      <div class="card__name">
-                        <p class="card__charc-name">U.S POLO ASSN.</p>
-                        <p class="card__charc-series">Up To 50% Off</p>
-                      </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card__container">
-                      <div class="card__img">
-                        <img src="assets/images/model1.jpg" alt="card-img" class="card__img-c" />
-                      </div>
-                      <div class="card__name">
-                        <p class="card__charc-name">U.S POLO ASSN.</p>
-                        <p class="card__charc-series">Up To 50% Off</p>
-                      </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card__container">
-                      <div class="card__img">
-                        <img src="assets/images/model1.jpg" alt="card-img" class="card__img-c" />
-                      </div>
-                      <div class="card__name">
-                        <p class="card__charc-name">U.S POLO ASSN.</p>
-                        <p class="card__charc-series">Up To 50% Off</p>
-                      </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card__container">
-                      <div class="card__img">
-                        <img src="assets/images/model1.jpg" alt="card-img" class="card__img-c" />
-                      </div>
-                      <div class="card__name">
-                        <p class="card__charc-name">U.S POLO ASSN.</p>
-                        <p class="card__charc-series">Up To 50% Off</p>
-                      </div>
-                    </div>
-                </div>
+        <div class="card">
+          <div class="card__container">
+            <div class="card__img">
+              <img src="assets/images/model1.jpg" alt="card-img" class="card__img-c" />
             </div>
-
-            <div class="space__3rem"></div>
-            <h1 class="category__heading">NEW ARRIVALS</h1>
-            <div class="arrival__collection">
-
-                <!-- Milkyway UI Horizontal Card -->
-
-                <div class="card card__cs">
-                    <div class="card__container card__container-horizontal">
-                      <div class="card__img card__img--cs">
-                        <img
-                          src="assets/images/modal3.jpg"
-                          alt="card-img"
-                          class="card__img-c cs"
-                        />
-                      </div>
-                      <div class="card__name name__cs">
-                        <p class="card__charc-name">New Arrival</p>
-                        <div>
-                            <p class="card__charc-series">Winter Collection</p>
-                            <p class="card__desc-text">Checkout our best winter Collection to stay hot in style this season.</p>
-                            </div>
-                      </div>
-                    </div>
-                </div>
-
-
-                <div class="card card__cs">
-                    <div class="card__container card__container-horizontal">
-                      <div class="card__img card__img--cs">
-                        <img
-                          src="assets/images/modal3.jpg"
-                          alt="card-img"
-                          class="card__img-c cs"
-                        />
-                      </div>
-                      <div class="card__name name__cs">
-                        <p class="card__charc-name">New Arrival</p>
-                        <div>
-                        <p class="card__charc-series">Winter Collection</p>
-                        <p class="card__desc-text">Checkout our best winter Collection to stay hot in style this season.</p>
-                        </div>
-                      </div>
-                    </div>
-                </div>
+            <div class="card__name">
+              <p class="card__charc-name">U.S POLO ASSN.</p>
+              <p class="card__charc-series">Up To 50% Off</p>
             </div>
+          </div>
         </div>
-        <div class="space__3rem"></div>
-    </main>
+
+        <div class="card">
+          <div class="card__container">
+            <div class="card__img">
+              <img src="assets/images/model1.jpg" alt="card-img" class="card__img-c" />
+            </div>
+            <div class="card__name">
+              <p class="card__charc-name">U.S POLO ASSN.</p>
+              <p class="card__charc-series">Up To 50% Off</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="space__3rem"></div>
+      <h1 class="category__heading">NEW ARRIVALS</h1>
+      <div class="arrival__collection">
+
+        <!-- Milkyway UI Horizontal Card -->
+
+        <div class="card card__cs">
+          <div class="card__container card__container-horizontal">
+            <div class="card__img card__img--cs">
+              <img src="assets/images/modal3.jpg" alt="card-img" class="card__img-c cs" />
+            </div>
+            <div class="card__name name__cs">
+              <p class="card__charc-name">New Arrival</p>
+              <div>
+                <p class="card__charc-series">Winter Collection</p>
+                <p class="card__desc-text">Checkout our best winter Collection to stay hot in style this season.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card card__cs">
+          <div class="card__container card__container-horizontal">
+            <div class="card__img card__img--cs">
+              <img src="assets/images/modal3.jpg" alt="card-img" class="card__img-c cs" />
+            </div>
+            <div class="card__name name__cs">
+              <p class="card__charc-name">New Arrival</p>
+              <div>
+                <p class="card__charc-series">Winter Collection</p>
+                <p class="card__desc-text">Checkout our best winter Collection to stay hot in style this season.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="space__3rem"></div>
+  </main>
 
 </body>
+
 </html>
