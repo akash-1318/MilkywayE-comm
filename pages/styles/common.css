@@ -75,6 +75,10 @@ a{
     margin-left: 0px;
 }
 
+.header__nav-left{
+    cursor: pointer;
+}
+
 .header__nav-right > :nth-child(1){
     color: var(--font-color);
 }
