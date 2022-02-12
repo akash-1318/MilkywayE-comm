@@ -1,5 +1,5 @@
 # MilkywayE-comm
  
-Tech Stack - /n
+Tech Stack - \n
 *HTML5
 *CSS3
