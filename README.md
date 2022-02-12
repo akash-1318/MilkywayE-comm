@@ -13,4 +13,4 @@ Tech Stack -
 * Cart management
 * Login and Signup
 
-```(Visit)[https://milkyway-shop.netlify.app/index.html]```
+https://milkyway-shop.netlify.app/index.html
