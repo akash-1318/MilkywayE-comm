@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/main.css"></link>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+        <!-- Milkyway UI header -->
+        <header class="header">
+            <div class="header__nav-left">
+              <img src="../assets/images/galaxy.png" alt="logo" />
+              <p class="logo__name">Milkyway</p>
+            </div>
+    
+            <div class="header__nav-middle">
+                <div class="search__icon">
+                  <i class="bx bx-search-alt-2"></i>
+                </div>
+                <input placeholder="search" class="header__search" />
+              </div>
+          
+            <div class="header__nav-right">
+              <div class="header__icons">
+                <a href="/pages/products.html"><button class="btn solid__primary">Login</button></a>
+                <a href="pages/wishlist.html">
+                  <div class="icon__badge">
+                    <i class="bx bx-heart"></i>
+                    <span class="badge__content">5</span>
+                  </div>
+                </a>
+                <a href="pages/mycart.html">
+                  <div class="icon__badge">
+                    <i class="bx bxs-cart-alt"></i>
+                    <span class="badge__content">2</span>
+                  </div>
+                </a>
+                <p class="cart__text">Cart</p>
+              </div>
+            </div>
+          </header>
+
+    <div class="credentials">
+        <h1>Login</h1>
+        <div class="cred__input-field">
+            <label>Email adddress</label>
+            <input placeholder="akash@neog.com" type="email"></input>
+        </div>
+        <div class="cred__input-field">
+            <label>Password</label>
+            <input placeholder="password" type="password"></input>
+        </div>
+        <div class="cred__remember-forgot">
+            <div class="remember__checkbox">
+                <input type="checkbox"/>
+                <label>Remember me</label>
+            </div>
+            <div class="forgot__password">Forgot your password?</div>
+        </div>
+        <button class="btn solid__primary cred__button">Login</button>
+        <a href="signup.html"><div class="create__new-account">create new account <i class='bx bx-right-arrow-alt'></i> </div></a>
+    </div>
+
+</body>
+</html>
