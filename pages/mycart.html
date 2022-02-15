@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+  <link rel="stylesheet" href="styles/main.css">
+  </link>
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Milkyway UI header -->
+  <header class="header">
+    <a href="../index.html">
+      <div class="header__nav-left">
+        <img src="../assets/images/galaxy.png" alt="logo" />
+        <p class="logo__name">Milkyway</p>
+      </div>
+    </a>
+
+    <div class="category__section">
+      <p>Men</p>
+      <p>Women</p>
+      <p>Kids</p>
+      <p>Home & Living</p>
+    </div>
+
+    <div class="header__nav-middle">
+      <div class="search__icon">
+        <i class="bx bx-search-alt-2"></i>
+      </div>
+      <input placeholder="search" class="header__search" />
+    </div>
+
+    <div class="header__nav-right">
+      <div class="header__icons">
+        <a href="../index.html"><button class="btn solid__primary logout__btn">Log Out</button></a>
+        <a href="wishlist.html">
+          <div class="icon__badge">
+            <i class="bx bx-heart"></i>
+            <span class="badge__content">5</span>
+          </div>
+        </a>
+        <a href="mycart.html">
+          <div class="icon__badge">
+            <i class="bx bxs-cart-alt"></i>
+            <span class="badge__content">2</span>
+          </div>
+        </a>
+        <p class="cart__text">Cart</p>
+      </div>
+    </div>
+  </header>
+
+  <div class="mycart__main-container">
+    <h1 class="mycart__main-heading">My Cart (2)</h1>
+    <div class="mycart__product">
+
+      <!-- Milkyway UI Card -->
+
+      <div class="card card__cs mycart">
+        <div class="card__container card__container-horizontal">
+          <div class="card__img card__img--cs mycart">
+            <img src="../assets/images/model1.jpg" alt="card-img" class="card__img-c cs" />
+          </div>
+          <div class="card__name mycart">
+            <div class="mycart__product-desc">
+              <p class="product__name">Men Premium Jacket</p>
+              <p class="selling__price">₹2000 <span class="original__price">₹3999</span> </p>
+              <p class="off__price">50% Off</p>
+              <div class="quantity__div">
+                Quantity :
+                <div class="decrement"><i class='bx bx-minus'></i></div>
+                <div class="number">2</div>
+                <div class="increment"><i class='bx bx-plus'></i></div>
+              </div>
+              <div class="mycart__card-btn">
+
+                <!-- Milkyway UI Buttons -->
+
+                <button class="btn solid__secondry mycart">Remove from cart</button>
+                <button class="btn secondry__ouline-btn mycart">Move to Wishlist</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mycart__product-right">
+        <h2>Price Details</h2>
+        <hr />
+        <div class="product__price-discount">
+          <div class="product__price-desc">
+            <div class="desc__div">
+              <p>Price (2 items)</p>
+              <p>₹4999</p>
+            </div>
+            <div class="desc__div">
+              <p>Discount</p>
+              <p>-₹1999</p>
+            </div>
+            <div class="desc__div">
+              <p>Delivery Charges</p>
+              <p>₹499</p>
+            </div>
+            <hr />
+            <div class="desc__div total__amount">
+              <p>Total Amount</p>
+              <p>₹3499</p>
+            </div>
+          </div>
+          <hr />
+          <p class="save__price-text">You will save ₹1999 on this order</p>
+
+          <!-- Milkyway UI Button -->
+
+          <button class="btn solid__primary place__order-btn">Place Order</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
