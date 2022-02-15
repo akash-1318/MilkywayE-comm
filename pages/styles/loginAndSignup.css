@@ -86,3 +86,25 @@
     font-size: 2rem;
     margin-left: 1rem;
 }
+
+.signup__form{
+    position: unset;
+    transform: none;
+    margin: 5rem auto;
+}
+
+.password__field{
+    position: relative;
+}
+
+.password__field > input{
+    padding-right: 4rem;
+}
+
+.password__field > i{
+    position: absolute;
+    font-size: 2rem;
+    right: 1rem;
+    top: 2.4rem;
+    cursor: pointer;
+}
