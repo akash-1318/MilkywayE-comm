@@ -15,6 +15,14 @@ Tech Stack -
 
 https://milkyway-shop.netlify.app/index.html
 
+# How to jump in different pages.
+
+* In header click on Login button ----> Login Page
+* On Login page click on create new account -----> Signup page
+* In header click on heart icon ----> Wishlist page
+* In header click on cart icon ----> Cart page
+* On home page click on Explore ----> Products page
+
 # ScreenShots
 
 <img width="1440" alt="Screenshot 2022-02-20 at 4 19 39 PM" src="https://user-images.githubusercontent.com/64393554/154838999-403b1388-ee64-4ef1-b956-c52d580b8234.png">
